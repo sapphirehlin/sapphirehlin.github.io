@@ -35,9 +35,9 @@ layout: default
         {% endif %}
         
         {% if page.collection == 'teaching' %}
-          <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.venue and page.date %}
-          <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p> {{ page.type }}, <i>{{ page.venue }}</i>, {% if page.year %}{{ page.year }}{% elsif page.date %}{{ page.date | date: "%Y" }}{% endif %} </p>
+        {% elsif page.venue %}
+          <p>Published in <i>{{ page.venue }}</i>{% if page.year or page.date %}, {% if page.year %}{{ page.year }}{% elsif page.date %}{{ page.date | date: "%Y" }}{% endif %}{% endif %} </p>
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}    
@@ -47,12 +47,7 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% capture page_links %}
-          {% if page.paperurl %}<a href="{{ page.paperurl }}">Download Paper</a>{% endif %}
-          {% if page.slidesurl %}{% if page.paperurl %} | {% endif %}<a href="{{ page.slidesurl }}">Download Slides</a>{% endif %}
-          {% if page.bibtexurl %}{% if page.paperurl or page.slidesurl %} | {% endif %}<a href="{{ page.bibtexurl }}">Download Bibtex</a>{% endif %}
-          {% if page.doilink %}{% if page.paperurl or page.slidesurl or page.bibtexurl %} | {% endif %}<a href="{{ page.doilink }}">DOI Link</a>{% endif %}
-        {% endcapture %}
+        {% capture page_links %}{% include publication-links.html item=page %}{% endcapture %}
         {% assign page_links = page_links | strip %}
 
         {% if page.citation or page_links != "" %}

@@ -1,0 +1,19 @@
+{% assign links_config = "paperurl::Download Paper||slidesurl::Download Slides||bibtexurl::Download Bibtex||doilink::DOI Link||freeeprintslink::Free e-prints||viewonlylink::View only||mediacoveragelink::Media coverage||interviewlink::Interview" | split: "||" %}
+{% assign first_link = true %}
+{% capture rendered_links %}{% endcapture %}
+
+{% for link_def in links_config %}
+  {% assign parts = link_def | split: "::" %}
+  {% assign key = parts[0] %}
+  {% assign label = parts[1] %}
+  {% assign url = include.item[key] %}
+  {% if url != blank %}
+    {% unless first_link %}
+      {% capture rendered_links %}{{ rendered_links }} | {% endcapture %}
+    {% endunless %}
+    {% capture rendered_links %}{{ rendered_links }}<a href="{{ url }}">{{ label }}</a>{% endcapture %}
+    {% assign first_link = false %}
+  {% endif %}
+{% endfor %}
+
+{{ rendered_links | strip }}

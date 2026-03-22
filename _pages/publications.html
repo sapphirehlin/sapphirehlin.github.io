@@ -5,32 +5,115 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
+<style>
+	.publication-category__toggle {
+		background: none;
+		border: 0;
+		padding: 0;
+		font: inherit;
+		color: inherit;
+		display: inline-flex;
+		align-items: center;
+		cursor: pointer;
+		font-weight: 600;
+	}
+
+	.publication-category__arrow {
+		display: inline-block;
+		margin-right: 0.4rem;
+		font-size: 0.72em;
+		transition: transform 0.28s ease;
+	}
+
+	.publication-category.is-expanded .publication-category__arrow {
+		transform: rotate(90deg);
+	}
+
+	.publication-category__content {
+		max-height: 0;
+		overflow: hidden;
+		opacity: 0;
+		transform: translateY(-6px);
+		transition: max-height 0.42s ease, opacity 0.28s ease, transform 0.28s ease;
+	}
+
+	.publication-category__inner {
+		margin-top: 0;
+	}
+
+	.publication-category.is-expanded .publication-category__content {
+		opacity: 1;
+		transform: translateY(0);
+	}
+</style>
+
+<!-- {% if site.author.googlescholar %}
+<div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %} -->
+<p class="publications-note">Note: * denotes authors with equal contribution</p>
+<hr />
+
+{% assign publications = site.data.publications %}
+
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
+{% for category in site.publication_category %}
+{% assign category_pubs = publications | where: "category", category[0] %}
+{% if category_pubs.size > 0 %}
+<div class="publication-category">
+<button type="button" class="publication-category__toggle" aria-expanded="false" aria-controls="pub-category-{{ forloop.index0 }}"><span class="publication-category__arrow" aria-hidden="true">▶</span>{{ category[1].title }}</button>
+<div id="pub-category-{{ forloop.index0 }}" class="publication-category__content">
+<div class="publication-category__inner">
+{% for pub in category_pubs %}
+{% assign post = pub %}
+{% include archive-single.html %}
+{% endfor %}
+<hr />
+</div>
+</div>
+</div>
+{% endif %}
+{% endfor %}
 {% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
+{% for pub in publications %}
+{% assign post = pub %}
+{% include archive-single.html %}
+{% endfor %}
 {% endif %}
 
+<script>
+	document.addEventListener("DOMContentLoaded", function () {
+		document.querySelectorAll(".publication-category").forEach(function (category) {
+			var toggle = category.querySelector(".publication-category__toggle");
+			var content = category.querySelector(".publication-category__content");
+			if (!toggle || !content) return;
 
+			content.style.maxHeight = "0px";
 
+			toggle.addEventListener("click", function () {
+				var expanded = toggle.getAttribute("aria-expanded") === "true";
+
+				if (expanded) {
+					content.style.maxHeight = content.scrollHeight + "px";
+					requestAnimationFrame(function () {
+						content.style.maxHeight = "0px";
+					});
+					toggle.setAttribute("aria-expanded", "false");
+					category.classList.remove("is-expanded");
+				} else {
+					content.style.maxHeight = content.scrollHeight + "px";
+					toggle.setAttribute("aria-expanded", "true");
+					category.classList.add("is-expanded");
+				}
+			});
+
+			content.addEventListener("transitionend", function (event) {
+				if (event.propertyName !== "max-height") return;
+				if (toggle.getAttribute("aria-expanded") === "true") {
+					content.style.maxHeight = "none";
+				}
+			});
+		});
+	});
+</script>
