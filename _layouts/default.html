@@ -11,19 +11,23 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body>
+  <body{% if page.hide_navbar or page.hide_footer or page.hide_breadcrumbs or page.hide_sidebar %} class="{% if page.hide_navbar %}no-navbar{% endif %}{% if page.hide_navbar and page.hide_footer %} {% endif %}{% if page.hide_footer %}no-footer{% endif %}{% if page.hide_breadcrumbs %}{% if page.hide_navbar or page.hide_footer %} {% endif %}no-breadcrumbs{% endif %}{% if page.hide_sidebar %}{% if page.hide_navbar or page.hide_footer or page.hide_breadcrumbs %} {% endif %}no-sidebar{% endif %}"{% endif %}{% if page.hide_navbar or page.hide_footer %} style="{% if page.hide_navbar %}padding-top: 0;{% endif %}{% if page.hide_footer %}padding-bottom: 0;{% endif %}"{% endif %}>
 
     {% include browser-upgrade.html %}
-    {% include masthead.html %}
+    {% unless page.hide_navbar %}
+      {% include masthead.html %}
+    {% endunless %}
 
     {{ content }}
 
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
+    {% unless page.hide_footer %}
+      <div class="page__footer">
+        <footer>
+          {% include footer/custom.html %}
+          {% include footer.html %}
+        </footer>
+      </div>
+    {% endunless %}
 
     {% include scripts.html %}
 
