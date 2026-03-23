@@ -33,7 +33,7 @@ Click [HERE](https://nus.syd1.qualtrics.com/jfe/form/SV_54Sh2QlJ6mrlLeu) to sign
 
 <hr />
 
-## **Ambient Intelligent Monitoring Systems for Health in Homes: User Perceptions and Their Amenability (Community)**
+## Ambient Intelligent Monitoring Systems for Health in Homes: User Perceptions and Their Amenability (Community)
 
 We are looking for:
 
@@ -47,7 +47,7 @@ Click HERE to sign up!
 
 <hr />
 
-## **Ambient Intelligent Monitoring Systems for Health in Hospitals: User Perceptions and Their Amenability (Healthcare Professionals)**
+## Ambient Intelligent Monitoring Systems for Health in Hospitals: User Perceptions and Their Amenability (Healthcare Professionals)
 
 We are looking for:
 
@@ -59,12 +59,12 @@ Click HERE to participate!
 
 <hr />
 
-## **Ambient intelligence for predicting health outcomes in Singapore: A validation study**
+## Ambient intelligence for predicting health outcomes in Singapore: A validation study
 
 COMING SOON!
 
 <hr />
 
-## **NUBuddy: A Smart Food Diary with Dynamic and Adaptive Behavior Change Support for Improved Nutrition**
+## NUBuddy: A Smart Food Diary with Dynamic and Adaptive Behavior Change Support for Improved Nutrition
 
 COMING SOON!
