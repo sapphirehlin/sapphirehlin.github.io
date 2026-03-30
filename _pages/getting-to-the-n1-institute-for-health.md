@@ -26,6 +26,11 @@ hide_breadcrumbs: true
 		padding-left: 0 !important;
 		padding-right: 0 !important;
 	}
+
+	.image-base {
+		width: 100%;
+		height: auto;
+	}
 </style>
 
 ## By Car, By Public Transport
