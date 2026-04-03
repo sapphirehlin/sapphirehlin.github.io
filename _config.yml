@@ -15,7 +15,7 @@ name                     : &name "Sapphire H. Lin"
 description              : &description "Sapphire H. Lin's academic profile"
 url                      : https://sapphirehlin.github.io
 baseurl                  : ""
-repository               : "sapphirehlin/sapphirehlin.github.io"
+repository               : ""
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -28,7 +28,7 @@ author:
   bio              : "Sapphire H. Lin's academic profile"
   location         : "Singapore"
   employer         : "National University of Singapore"
-  uri              : "https://www.linkedin.com/in/sapphire-lin-136620177/"
+  uri              : "https://sapphirehlin.github.io"
   email            : "shlin@nus.edu.sg" 
 
   # Academic websites
@@ -50,7 +50,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "sapphirehlin"
+  github           : # Username
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -65,7 +65,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : sapphire-lin-136620177
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
