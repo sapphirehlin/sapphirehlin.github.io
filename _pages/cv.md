@@ -34,8 +34,7 @@ redirect_from:
   }
 </style>
 
-Education
-======
+## Education
 <div class="cv-timeline">
   <div class="cv-timeline__item">
     <div class="cv-timeline__date">Aug 2016–Jul 2021</div>
@@ -62,8 +61,9 @@ Education
   </div>
 </div>
 
-Work experience
-======
+<hr />
+
+## Work experience
 <div class="cv-timeline">
   <div class="cv-timeline__item">
     <div class="cv-timeline__date">May 2024–Present</div>
@@ -91,8 +91,9 @@ Work experience
   </div>
 </div>
 
-Awards
-======
+<hr />
+
+## Awards
 - 2023: COVID-19 Resilience Medal \| Prime Minister’s Office, Singapore
 - 2016: Plenary Status \| Mobile Pre-Conference, International Communication Association Annual Conference, Fukuoka, Japan
 - 2016–2020: NTU Research Scholarship \| Nanyang Technological University, Singapore
