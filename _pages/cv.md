@@ -63,7 +63,7 @@ redirect_from:
 
 <hr />
 
-## Work experience
+## Work Experience
 <div class="cv-timeline">
   <div class="cv-timeline__item">
     <div class="cv-timeline__date">May 2024–Present</div>
@@ -71,7 +71,6 @@ redirect_from:
       <p>Research Fellow</p>
       <p>The N.1 Institute for Health, National University of Singapore</p>
       <i>The Institute for Digital Medicine (WisDM), Yong Loo Lin School of Medicine, National University of Singapore</i>
-      <p>Research on the behavioral aspects of medical trials and user experience (UX) with digital medicine; mixed-methods data collection and analysis; academic writing; grant writing; collaborations with public healthcare, industry, and community partners</p>
     </div>
   </div>
   <div class="cv-timeline__item">
@@ -86,7 +85,6 @@ redirect_from:
     <div class="cv-timeline__details">
       <p>Research Fellow</p>
       <i>Centre for Population Health Research & Implementation(CHRI), Singapore Health Services Pte Ltd (SingHealth)</i>
-      <p>Management of nationwide project and competitive grant(>$2M); coordination of collaborations with multiple government agencies, academic institutes, and community partners; recruitment of participants; data collection (N>1000); data analysis; writing of reports and academic papers</p>
     </div>
   </div>
 </div>

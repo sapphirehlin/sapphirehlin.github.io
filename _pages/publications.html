@@ -8,16 +8,24 @@ author_profile: true
 {% include base_path %}
 
 <style>
+	:root {
+		--publication-heading-h1-size: 1.563em;
+		--publication-heading-h2-size: 1.25em;
+		--publication-heading-h3-size: 1em;
+	}
+
 	.publication-category__toggle {
 		background: none;
 		border: 0;
 		padding: 0;
 		font: inherit;
+		font-size: var(--publication-heading-h2-size);
 		color: inherit;
 		display: inline-flex;
 		align-items: center;
 		cursor: pointer;
 		font-weight: 600;
+		margin-top: 0.4em;
 	}
 
 	.publication-category__arrow {
