@@ -9,6 +9,9 @@ author_profile: true
 
 ## Selected Research Projects
 
+- Ambient Intelligent Monitoring Systems for Health in Homes: User Perceptions and Their Amenability \| National University of Singapore \
+[News (NUS News)](https://news.nus.edu.sg/from-conversations-to-code-nus-researchers-craft-age-friendly-tech-with-the-community-at-heart/) \| [News (HD@QT)](https://healthdistrictqueenstown.sg/news/2026-03#listening-before-building)
+
 - The Elderly Life Spaces (EASE) Project \| SingHealth \
 [Website](https://www.singhealth.com.sg/about-singhealth/who-we-are/community-population-health/population-health-research/ease) \| [News (Tomorrow's Medicine)](https://www.singhealth.com.sg/news/tomorrows-medicine/easing-into-old-age-life-space) \| [Interview (CNA)](https://www.youtube.com/watch?v=x7TIXxlMXqc)
 
