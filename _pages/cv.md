@@ -84,7 +84,7 @@ redirect_from:
     <div class="cv-timeline__date">Oct 2021–Feb 2024</div>
     <div class="cv-timeline__details">
       <p>Research Fellow</p>
-      <i>Centre for Population Health Research & Implementation (CHPRI), Singapore Health Services Pte Ltd (SingHealth), Singapore</i>
+      <i>Centre for Population Health Research & Implementation (CPHRI), Singapore Health Services Pte Ltd (SingHealth), Singapore</i>
     </div>
   </div>
 </div>
