@@ -40,16 +40,16 @@ redirect_from:
     <div class="cv-timeline__date">Aug 2016–Jul 2021</div>
     <div class="cv-timeline__details">
       <p>Doctor of Philosophy</p>
-      <p>Wee Kim Wee School of Communication and Information,</p>
-      <p>Nanyang Technological University, Singapore</p>
+      <p><i>Wee Kim Wee School of Communication and Information,</i>i</p>
+      <p><i>Nanyang Technological University, Singapore</p>
     </div>
   </div>
   <div class="cv-timeline__item">
     <div class="cv-timeline__date">Aug 2013–May 2015</div>
     <div class="cv-timeline__details">
       <p>Master of Mass Communication</p>
-      <p>Wee Kim Wee School of Communication and Information,</p>
-      <p>Nanyang Technological University, Singapore</p>
+      <p><i>Wee Kim Wee School of Communication and Information,</i></p>
+      <p><i>Nanyang Technological University, Singapore</i></p>
     </div>
   </div>
   <div class="cv-timeline__item">
@@ -70,21 +70,23 @@ redirect_from:
     <div class="cv-timeline__details">
       <p>Research Fellow</p>
       <p><i>The N.1 Institute for Health and The Institute for Digital Medicine (WisDM), </i></p>
-         <p><i>Yong Loo Lin School of Medicine, National University of Singapore, Singapore</i></p>
+      <p><i>Yong Loo Lin School of Medicine, National University of Singapore, Singapore</i></p>
     </div>
   </div>
   <div class="cv-timeline__item">
     <div class="cv-timeline__date">Jul 2022–May 2024</div>
     <div class="cv-timeline__details">
       <p>Adjunct Research Fellow</p>
-      <i>Health Services and Systems Research, Duke-NUS Medical School, Singapore</i>
+      <p><i>Health Services and Systems Research,</i></p>
+      <p><i>Duke-NUS Medical School, Singapore</i></p>
     </div>
   </div>
   <div class="cv-timeline__item">
     <div class="cv-timeline__date">Oct 2021–Feb 2024</div>
     <div class="cv-timeline__details">
       <p>Research Fellow</p>
-      <i>Centre for Population Health Research & Implementation (CPHRI), Singapore Health Services Pte Ltd (SingHealth), Singapore</i>
+     <p><i>Centre for Population Health Research & Implementation (CPHRI),</i></p> 
+     <p><i> Singapore Health Services Pte Ltd (SingHealth), Singapore</i></p>
     </div>
   </div>
 </div>
