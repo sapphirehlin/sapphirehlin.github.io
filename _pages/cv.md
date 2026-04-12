@@ -40,23 +40,23 @@ redirect_from:
     <div class="cv-timeline__date">Aug 2016–Jul 2021</div>
     <div class="cv-timeline__details">
       <p>Doctor of Philosophy</p>
-      <p><i>Wee Kim Wee School of Communication and Information,</i></p>
-      <p><i>Nanyang Technological University, Singapore</p>
+      <p>Wee Kim Wee School of Communication and Information,</p>
+      <p>Nanyang Technological University, Singapore</p>
     </div>
   </div>
   <div class="cv-timeline__item">
     <div class="cv-timeline__date">Aug 2013–May 2015</div>
     <div class="cv-timeline__details">
       <p>Master of Mass Communication</p>
-      <p><i>Wee Kim Wee School of Communication and Information,</i></p>
-      <p><i>Nanyang Technological University, Singapore</i></p>
+      <p>Wee Kim Wee School of Communication and Information,</p>
+      <p>Nanyang Technological University, Singapore</p>
     </div>
   </div>
   <div class="cv-timeline__item">
     <div class="cv-timeline__date">Jun 2008–Apr 2010</div>
     <div class="cv-timeline__details">
-      <p><i>Bachelor of Arts (in Liberal Arts with concentration in Mass Communications)</i></p>
-      <p><i>Petree College of Arts and Sciences, Oklahoma City University, USA</i></p>
+      <p>Bachelor of Arts (in Liberal Arts with concentration in Mass Communications)</p>
+      <p>Petree College of Arts and Sciences, Oklahoma City University, USA</p>
     </div>
   </div>
 </div>
@@ -85,8 +85,8 @@ redirect_from:
     <div class="cv-timeline__date">Oct 2021–Feb 2024</div>
     <div class="cv-timeline__details">
       <p>Research Fellow</p>
-     <p><i>Centre for Population Health Research & Implementation (CPHRI),</i></p> 
-     <p><i> Singapore Health Services Pte Ltd (SingHealth), Singapore</i></p>
+      <p><i>Centre for Population Health Research & Implementation (CPHRI),</i></p> 
+      <p><i> Singapore Health Services Pte Ltd (SingHealth), Singapore</i></p>
     </div>
   </div>
 </div>
