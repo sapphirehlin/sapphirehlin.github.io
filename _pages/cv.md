@@ -40,7 +40,7 @@ redirect_from:
     <div class="cv-timeline__date">Aug 2016–Jul 2021</div>
     <div class="cv-timeline__details">
       <p>Doctor of Philosophy</p>
-      <p><i>Wee Kim Wee School of Communication and Information,</i>i</p>
+      <p><i>Wee Kim Wee School of Communication and Information,</i></p>
       <p><i>Nanyang Technological University, Singapore</p>
     </div>
   </div>
@@ -55,8 +55,8 @@ redirect_from:
   <div class="cv-timeline__item">
     <div class="cv-timeline__date">Jun 2008–Apr 2010</div>
     <div class="cv-timeline__details">
-      <p>Bachelor of Arts (in Liberal Arts with concentration in Mass Communications)</p>
-      <p>Petree College of Arts and Sciences, Oklahoma City University, USA</p>
+      <p><i>Bachelor of Arts (in Liberal Arts with concentration in Mass Communications)</i></p>
+      <p><i>Petree College of Arts and Sciences, Oklahoma City University, USA</i></p>
     </div>
   </div>
 </div>
