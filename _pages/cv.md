@@ -69,24 +69,24 @@ redirect_from:
     <div class="cv-timeline__date">May 2024–Present</div>
     <div class="cv-timeline__details">
       <p>Research Fellow</p>
-      <p><i>The N.1 Institute for Health and The Institute for Digital Medicine (WisDM), </i></p>
-      <p><i>Yong Loo Lin School of Medicine, National University of Singapore, Singapore</i></p>
+      <p>The N.1 Institute for Health and The Institute for Digital Medicine (WisDM),</p>
+      <p>Yong Loo Lin School of Medicine, National University of Singapore, Singapore</p>
     </div>
   </div>
   <div class="cv-timeline__item">
     <div class="cv-timeline__date">Jul 2022–May 2024</div>
     <div class="cv-timeline__details">
       <p>Adjunct Research Fellow</p>
-      <p><i>Health Services and Systems Research,</i></p>
-      <p><i>Duke-NUS Medical School, Singapore</i></p>
+      <p>Health Services and Systems Research,</p>
+      <p>Duke-NUS Medical School, Singapore</p>
     </div>
   </div>
   <div class="cv-timeline__item">
     <div class="cv-timeline__date">Oct 2021–Feb 2024</div>
     <div class="cv-timeline__details">
       <p>Research Fellow</p>
-      <p><i>Centre for Population Health Research & Implementation (CPHRI),</i></p> 
-      <p><i> Singapore Health Services Pte Ltd (SingHealth), Singapore</i></p>
+      <p>Centre for Population Health Research & Implementation (CPHRI),</p> 
+      <p>Singapore Health Services Pte Ltd (SingHealth), Singapore</p>
     </div>
   </div>
 </div>
