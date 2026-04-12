@@ -1,3 +1,14 @@
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<script>
+window.addEventListener('load', function() {
+  document.querySelectorAll('.page__content a[href], .archive a[href]').forEach(function(a) {
+    if (a.host !== window.location.host) {
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+    }
+  });
+});
+</script>
+
 {% include analytics.html %}

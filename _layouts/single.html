@@ -53,7 +53,7 @@ layout: default
         {% assign page_links = page_links | strip %}
 
         {% if page.citation or page_links != "" %}
-          <p style="font-size: smaller">{% if page.citation %}Recommended citation: {{ page.citation }}{% endif %}{% if page.citation and page_links != "" %}<br />{% endif %}{{ page_links }}</p>
+          <p style="font-size: smaller">{% if page.citation %}{{ page.citation }}{% endif %}{% if page.citation and page_links != "" %}<br />{% endif %}{{ page_links }}</p>
         {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}

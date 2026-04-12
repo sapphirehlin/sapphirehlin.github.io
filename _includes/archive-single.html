@@ -58,7 +58,7 @@
     {% assign post_links = post_links | strip %}
 
     {% if post.citation or post_links != "" %}
-      <p>{% if post.citation %}Recommended citation: {{ post.citation }}{% endif %}{% if post.citation and post_links != "" %}<br />{% endif %}{{ post_links }}</p>
+      <p>{% if post.citation %}{{ post.citation }}{% endif %}{% if post.citation and post_links != "" %}<br />{% endif %}{{ post_links }}</p>
     {% endif %}
 
   </article>
