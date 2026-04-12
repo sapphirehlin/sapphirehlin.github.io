@@ -69,7 +69,8 @@ redirect_from:
     <div class="cv-timeline__date">May 2024–Present</div>
     <div class="cv-timeline__details">
       <p>Research Fellow</p>
-      <i>The N.1 Institute for Health and The Institute for Digital Medicine (WisDM), Yong Loo Lin School of Medicine, National University of Singapore, Singapore</i>
+      <p><i>The N.1 Institute for Health and The Institute for Digital Medicine (WisDM), </i></p>
+         <p><i>Yong Loo Lin School of Medicine, National University of Singapore, Singapore</i></p>
     </div>
   </div>
   <div class="cv-timeline__item">
