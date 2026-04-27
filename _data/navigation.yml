@@ -9,7 +9,7 @@
 
 main:
   - title: "Ongoing Studies"
-  #   url: /ongoing-studies/
+    url: /ongoing-studies/
 
   - title: "Publications"
     url: /publications/
